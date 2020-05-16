@@ -1,0 +1,27 @@
+{
+  "name": "@zartsoft/parcel-browser-sync",
+  "version": "0.1.0",
+  "description": "Parcel bundler integrated with browser-sync",
+  "license": "MIT",
+  "author": "Konstantin Zemlyak <zart@zartsoft.ru>",
+  "homepage": "https://github.com/zartsoft/parcel-browser-sync#readme",
+  "repository": {
+    "type": "git",
+    "url": "github:zartsoft/parcel-browser-sync"
+  },
+  "bugs": "https://github.com/zartsoft/parcel-browser-sync/issues",
+  "keywords": [
+    "parcel",
+    "browser-sync",
+    "live-server",
+    "devserver",
+    "front-end",
+    "development"
+  ],
+  "type": "module",
+  "bin": "server.js",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "parcel": "^1.12.4"
+  }
+}
