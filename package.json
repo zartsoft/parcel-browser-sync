@@ -1,6 +1,6 @@
 {
   "name": "@zartsoft/parcel-browser-sync",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Parcel bundler integrated with browser-sync",
   "license": "MIT",
   "author": "Konstantin Zemlyak <zart@zartsoft.ru>",
@@ -20,7 +20,7 @@
   ],
   "type": "module",
   "bin": "server.js",
-  "devDependencies": {
+  "dependencies": {
     "browser-sync": "^2.26.7",
     "parcel": "^1.12.4"
   }
