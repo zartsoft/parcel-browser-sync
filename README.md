@@ -58,6 +58,10 @@ Programmatic usage is not available at this time.
 Version History
 ---------------
 
+* 0.2.0 (2020-05-16)
+
+        - fixed dependencies
+
 * 0.1.0 (2020-05-16)
 
         - initial release
