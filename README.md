@@ -55,18 +55,11 @@ Output directory is hard-coded to be default and uses `./dist` for now.
 
 Programmatic usage is not available at this time.
 
+
 Version History
 ---------------
 
-* 0.2.0 (2020-05-16)
-
-        - fixed dependencies
-
-* 0.1.0 (2020-05-16)
-
-        - initial release
-        - parcel 1.12.4
-        - browser-sync 2.26.7
+See CHANGES.md
 
 
 Copyright and License
