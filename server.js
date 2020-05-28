@@ -20,7 +20,6 @@ browserSync.init({
   ...package_json['browser-sync'], // use options in package.json if present
   server: bundler.options.outDir,  // server mode, using bundler's directory
   watch: false,                    // watching is done by bundler
-  minify: false,                   // minifying as well
 }, (err, bs) => {
   if (err && err.message) console.error(err.message)
   bs.options.middleware = bundler.middleware()
