@@ -1,6 +1,6 @@
 {
   "name": "@zartsoft/parcel-browser-sync",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Parcel bundler integrated with browser-sync",
   "license": "MIT",
   "author": "Konstantin Zemlyak <zart@zartsoft.ru>",
