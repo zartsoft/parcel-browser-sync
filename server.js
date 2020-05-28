@@ -1,4 +1,4 @@
-#!/usr/bin/env node 
+#!/usr/bin/env node
 // browser-sync that uses parcel for build and live reloading
 import fs from 'fs'
 import Bundler from 'parcel'
@@ -7,6 +7,12 @@ import BrowserSync from 'browser-sync'
 const package_json = JSON.parse(fs.readFileSync('./package.json'))
 const bundler = new Bundler(package_json.entries || './src/index.*')
 const browserSync = BrowserSync.create()
+
+bundler.on('bundled', bundle => {
+  if (browserSync.active) {
+    browserSync.reload() // TODO: pass list of files in bundle for HMR
+  }
+})
 
 browserSync.init({
   open: false,                     // better defaults
