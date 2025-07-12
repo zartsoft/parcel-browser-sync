@@ -21,7 +21,7 @@
   "type": "module",
   "bin": "server.js",
   "dependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^3.0.4",
     "parcel": "^1.12.4"
   }
 }
